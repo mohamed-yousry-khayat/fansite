@@ -1,0 +1,251 @@
+/*css header */
+
+header{
+    background-color: black;
+   
+}
+
+.div_logo {
+	text-align: center;
+}
+
+nav {
+    width: 100%;
+    background-color: rgb(3, 3, 3);
+    position: sticky;
+    top: 0px;
+    font-family: 'SilverbladeRegular';
+    
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-bottom: 3px solid transparent;
+    padding: 10px 0px;
+    text-align: center;
+}
+nav a:hover{
+    color: #8d1111;
+    border-bottom: 3px solid #8d1111;
+}
+
+/* fin css header */
+
+/* footer */
+
+footer{
+    margin-top: 50px;
+}
+
+/* fin footer */
+
+/* index */
+
+body{
+    background-color: black;
+}
+
+.fond{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+
+}
+
+.img1{
+    background-image:url(https://images4.alphacoders.com/595/thumb-1920-595710.jpg);
+    height: 800px;
+    width: 1500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'AvaraBold';
+}
+
+
+.img2{
+    background-image:url(https://c4.wallpaperflare.com/wallpaper/486/661/140/assassin-s-creed-3-connor-free-running-wallpaper-preview.jpg);
+    height: 800px;
+    width: 1500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'AvaraBold';
+}
+
+.img3{
+    background-image:url(https://wallpapercave.com/wp/wp7326012.jpg) ;
+    height: 800px;
+    width: 1500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'AvaraBold';
+}
+
+
+span{
+    background-color: white;
+}
+
+/* fin index */
+
+/* about us */
+
+.au1{
+    background-image:url(https://static.wixstatic.com/media/06e6c8_ea6304315c904815b644107b0e4c82ef~mv2.jpg/v1/fill/w_1372,h_736,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/06e6c8_ea6304315c904815b644107b0e4c82ef~mv2.jpg) ;
+    height: 800px;
+    width: 1500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'AvaraBold';
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+}
+
+.text1{
+    grid-row: 1;
+    grid-column: 1;
+    
+}
+
+.text2{
+    grid-row: 2;
+    grid-column: 2;
+    
+}
+
+.text3{
+    grid-row: 3;
+    grid-column: 3;
+    
+}
+
+.team{
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASIAAACuCAMAAAClZfCTAAAAA1BMVEX///+nxBvIAAAASElEQVR4nO3BMQEAAADCoPVPbQhfoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABeA8XKAAFZcBBuAAAAAElFTkSuQmCC);
+    width: 1500px;
+    height: 375px;
+    display: flex;
+
+}
+
+.my-face{
+    justify-content: flex-start;
+}
+
+.expl{
+    justify-content: flex-end;
+    font-family: 'AvaraBold';
+}
+
+/* fin about us */
+
+/* collection */
+
+.collection{
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 200px 200px 200px;
+    margin-top: 20px;
+    margin-left: 30%;
+
+}
+
+.coll1{
+    border-radius: 18px 18px 18px 18px;
+    -webkit-border-radius: 18px 18px 18px 18px;
+    -moz-border-radius: 18px 18px 18px 18px;
+    background-image: url(https://www.cdiscount.com/pdt2/3/1/0/1/300x300/auc4006891916310/rw/assassin-s-creed-origins-housse-de-couette-et-ta.jpg);
+    background-position: center;
+    background-size: 70%;
+    border: 4px solid #463b3a;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.coll2{
+    border-radius: 18px 18px 18px 18px;
+    -webkit-border-radius: 18px 18px 18px 18px;
+    -moz-border-radius: 18px 18px 18px 18px;
+    background-image: url(https://www.cdiscount.com/pdt2/3/1/2/1/300x300/0761568007312/rw/puzzle-assassins-creed-valhalla-1000pcs-oc.jpg);
+    background-position: center;
+    background-size: 80%;
+    border: 4px solid #463b3a;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.coll3{
+    border-radius: 18px 18px 18px 18px;
+    -webkit-border-radius: 18px 18px 18px 18px;
+    -moz-border-radius: 18px 18px 18px 18px;
+    background-image: url(https://www.cdiscount.com/pdt2/9/6/2/1/300x300/auc3665361009962/rw/assassin-s-creed-verre-noir.jpg);
+    background-position: center;
+    background-size: 65%;
+    border: 4px solid #463b3a;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.coll4{
+    border-radius: 18px 18px 18px 18px;
+    -webkit-border-radius: 18px 18px 18px 18px;
+    -moz-border-radius: 18px 18px 18px 18px;
+    background-image: url(https://www.cdiscount.com/pdt2/4/5/6/1/300x300/nec0634482608456/rw/figurine-assassin-creed-2.jpg);
+    background-position: center;
+    background-size: 65%;
+    border: 4px solid #463b3a;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.coll5{
+    border-radius: 18px 18px 18px 18px;
+    -webkit-border-radius: 18px 18px 18px 18px;
+    -moz-border-radius: 18px 18px 18px 18px;
+    background-image: url(https://www.cdiscount.com/pdt2/4/4/6/1/300x300/auc3665361011446/rw/tapis-de-souris-gaming-assassin-s-creed-crest.jpg);
+    background-position: center;
+    background-size: 70%;
+    border: 4px solid #463b3a;
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.coll6{
+    border-radius: 18px 18px 18px 18px;
+    -webkit-border-radius: 18px 18px 18px 18px;
+    -moz-border-radius: 18px 18px 18px 18px;
+    background-image: url(https://www.cdiscount.com/pdt2/a/c/o/1/300x300/bp754740aco/rw/assassin-s-creed-odyssey-sac-a-dos-technique-noi.jpg);
+    background-position: center;
+    background-size: 80%;
+    border: 4px solid #463b3a;
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.collection a{
+    display : block;
+    width : 300px;
+    height : 200px;
+    text-decoration : none;
+}
+
+/* fin collection */
+
+/* latest */
+
+.ltext{
+    color: white;
+    font-family: AvaraBold;
+    margin-top: 4%;
+    margin-left: 15%;
+}
+
+.vbox{
+    margin-top: 4%;
+    display: flex;
+    justify-content:space-around;
+
+}
+
+/* fin latest */
